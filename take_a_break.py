@@ -9,6 +9,7 @@ sec=int(raw_input("how many sec->"))
 t=hr*3600+minute*60+sec
 total=int(raw_input("total no. of breaks?->"))
 flag=0
+//i="commitchanges"
 while (flag<total):
 	time.sleep(t)
 	flag+=1
